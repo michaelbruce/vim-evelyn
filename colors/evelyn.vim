@@ -180,7 +180,7 @@ hi Visual ctermbg=52 ctermfg=NONE guibg=#878787 guifg=NONE
 call <sid>hi("ErrorMsg", s:gui14, "NONE", s:cterm14, "NONE", "")
 call <sid>hi("MatchParen", s:gui10, "NONE", s:cterm14, "NONE", "")
 hi Comment ctermfg=102 guifg=#878787
-call <sid>hi("Folded", s:gui12, "NONE", s:cterm12, "NONE", "")
+call <sid>hi("Folded", s:gui10, "NONE", s:cterm10, "NONE", "")
 call <sid>hi("VertSplit", s:gui00, s:gui02, s:cterm00, s:cterm02, "")
 
 " Tab number
