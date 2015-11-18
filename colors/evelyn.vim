@@ -164,8 +164,8 @@ let s:gui21 = "#af87ff"
 " }}}
 
 " Status bar
-call <sid>hi("User1", s:gui10, "", s:cterm10, "", "")
-set stl=--\ %1*%F%m%r%h%w%*\ %=\ %y\ -\ [%l,%c]\ [%L,%p%%] laststatus=2 showtabline=1 tags=./.tags;
+" call <sid>hi("User1", s:gui10, "", s:cterm10, "", "")
+" set stl=--\ %1*%F%m%r%h%w%*\ %=\ %y\ -\ [%l,%c]\ [%L,%p%%] laststatus=2 showtabline=1 tags=./.tags;
 set fillchars=stlnc:\-,stl:\-,vert:\|
 
 " UI components {{{
