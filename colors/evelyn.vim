@@ -164,7 +164,7 @@ let s:gui21 = "#af87ff"
 " }}}
 
 " Status bar
-" call <sid>hi("User1", s:gui10, "", s:cterm10, "", "")
+call <sid>hi("User1", s:gui10, "", s:cterm10, "", "")
 set stl=--\ %1*%F%m%r%h%w%*\ %=\ %y\ -\ [%l,%c]\ [%L,%p%%] showtabline=1 tags=./.tags;
 set fillchars=stlnc:\-,stl:\-,vert:\|
 
