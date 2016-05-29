@@ -120,10 +120,10 @@ let s:cterm07 = "9"
 let s:gui07 = "#ffafff"
 " (Dark) String colour
 let s:cterm08 = "228"
-let s:gui08 = "#fff87"
+let s:gui08 = "#ffff87"
 " (Light) String colour
 let s:cterm09 = "88"
-let s:gui09 = "#fff87"
+let s:gui09 = "#ffff87"
 " (Dark) Statusline
 let s:cterm10 = "10"
 let s:gui10 = "#88D400"
@@ -171,8 +171,9 @@ set fillchars=stlnc:\-,stl:\-,vert:\|
 " UI components {{{
 call <sid>hi("Normal", s:gui01, s:gui00, s:cterm01, s:cterm00, "")
 hi ColorColumn ctermbg=234 guibg=#121212
-call <sid>hi("CursorLine", "", "", "", s:cterm04, "NONE")
-call <sid>hi("CursorLine", "", s:gui04, "", s:cterm04, "NONE")
+" call <sid>hi("CursorLine", "", "", "", s:cterm04, "NONE")
+" call <sid>hi("CursorLine", "", s:gui04, "", s:cterm04, "NONE")
+hi CursorLine guifg=NONE guibg=#303030 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 call <sid>hi("CursorLineNr", s:gui06, s:gui04, s:cterm06, s:cterm04, "")
 call <sid>hi("LineNr", s:gui02, s:gui01, s:cterm02, s:cterm00, "")
 hi Search ctermbg=52 ctermfg=NONE guibg=#878787 guifg=NONE
